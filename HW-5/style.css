@@ -67,15 +67,15 @@ button{
     padding-top: 1px;
 }
 .search{
-   
+   background-color:rgb(90, 86, 86); ;
     border:0px;
     height: 90%;
     padding:0px 0 0 30px ;
     border-radius: 6px;
-    background: url(./search2.png) no-repeat scroll 7px 12px;
+    background-image: url(./search2.png);
     border-color: rgb(109, 106, 106);
-    
-}
-.search1{
-    width: 30px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 12px;
+    margin-right:10px;
 }
