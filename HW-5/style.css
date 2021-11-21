@@ -1,0 +1,81 @@
+@import url(https://allfont.ru/allfont.css?fonts=american-uncial-normal);
+body{
+    background: #2c2c2c;
+    width: 100%;
+    height: 640px;
+    color:white;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+.table1 {
+    border-collapse:collapse;
+    text-align: left;
+    border-radius: 6px;
+    font-family: sans-serif;
+    box-shadow: 0 0 0 1px #525252;
+    margin-bottom: 50px;
+    background-color: #2f2f2f;
+    height: 35%;
+    width: 50%;
+   
+   
+}
+table td:last-child {
+    width: 10%;
+    text-align: end;
+    padding-right: 2%;
+}
+th, td {
+    padding-top: 6px;
+    padding-left: 17px;
+    color: white;
+    border-bottom: 1px solid #525252;
+    padding-bottom: 6px;
+    width: 400px;
+    height: 44px;
+}
+.third_row{
+    border-bottom: none;
+}
+.app{
+    color: #888888;
+    
+}
+.dots{
+    border-bottom: none;
+}
+.icon1{
+    width: 12px;
+    height: 12px;
+    padding-left: 10px;
+}
+button{
+    width: 13px;
+    height: 13px;
+    padding:0px 1px 0px 0;
+    color: white;
+    background: #199bf2;
+    border:0px;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px white;
+}
+.folder{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-top: 1px;
+}
+.search{
+    margin-left:-120px;
+    border:0px;
+    height: 90%;
+    padding:0px 0 0 30px ;
+    border-radius: 6px;
+    background: url(./search2.png) no-repeat scroll 7px 12px;
+    border-color: rgb(109, 106, 106);
+    
+}
+.search1{
+    width: 30px;
+}
