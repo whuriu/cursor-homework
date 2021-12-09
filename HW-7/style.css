@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Lato&family=Uncial+Antiqua&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+
+}
+
+header{
+    display: flex;
+    width: 93%;
+    height: 956px;
+    margin-left: 7%;
+
+}
+ .left_side{
+     width: 50%;
+     height: 956px;
+     z-index: -1;
+ }
+ .nav_left{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ .logo{
+     margin-top: 30px;
+ }
+ .pos{
+     margin-top: 42px;
+     text-decoration: none;
+     color:black;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 20px;
+     margin-right: 2%;
+ }
+
+ .pos:hover{
+     text-decoration: underline;
+ }
+
+ .content{
+     margin-top: 140px;
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+     height: 296px;
+ }
+
+ .left_h1{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 20px;
+ }
+
+ .left_text{
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 60px;
+}
+
+ .left_but{
+    padding: 15px 30px;
+    height: 52px;
+    width: 60%;
+    color: white;
+    background:linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%) ;
+    font-weight: 600;
+    font-size: 18px;
+    border:0px;
+    border-radius: 50px;
+ }
+
+ .right_side{
+    background: #2B7AF1;
+    border-radius: 0px 0px 0px 10px;
+    height: 880px;
+    width: 50%;
+    z-index: -1;
+    margin-right: 8%;
+ }
+
+ .icons{
+     width: 40px;
+     height: 40px;
+     margin-top: 30px;
+ }
+
+ .nav_right{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+ }
+
+.but_right{
+    padding: 15px 30px;
+    height: 52px;
+    width: 32%;
+    color: white;
+    background:linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%) ;
+    font-weight: 600;
+    font-size: 18px;
+    border:0px;
+    border-radius: 50px;
+    margin: 25px 12% 0 0;
+}
+
+.email{
+    margin-left: 7%;
+}
+
+.pos1{
+    margin-top: 42px;
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.img1{
+    position: absolute;
+    width: 55%;
+    right: 7.45%;
+    top:140px;
+    height: 550px;
+    margin: 0;
+}
+
