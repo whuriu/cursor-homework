@@ -455,3 +455,20 @@ align-items: center;
     font-size: 14px;
     line-height: 17px;
 }
+
+.wraper{
+    display: flex;
+    width: 1300px;
+    height: 700px;
+}
+
+.block{
+    width: 700px;
+    height: 500px;
+}
+
+.iteam__block{
+    width: 160px;
+    height: 160px;
+    background-color: black;
+}
