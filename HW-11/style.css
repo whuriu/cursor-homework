@@ -1,0 +1,18 @@
+.search{
+    background-image: url(./imgs/search.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 35%;
+}
+
+
+
+
+.posts{
+    margin-left: 3px;
+
+}
+
+.pos {
+    margin-left: 70px;
+}
