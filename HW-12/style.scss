@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$color:#091133;
+$font:Roboto;
+$secondcolor:#505F98;
+body{
+    margin: 0;
+    padding: 0;
+}
+
+%butt{
+    width: 189px / 539px * 100%;
+    background-color: $color;
+    color: white;
+    border: 0px;
+    border-radius:  2px;
+    font-family: $font;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+%h2{
+    font-family: $font;
+    color: $color;
+    font-size: 36px;
+    line-height: 48px;
+
+}
+
+%content{
+    color:$secondcolor ;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: $font;
+    margin-bottom: 69px;
+}
+.content{
+    margin: 0 165px / 1440px * 100%;
+    margin-bottom: 18px;
+    
+}
+
+.bg_header{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    top: 0px;
+}
+
+.header{
+    
+    height: 1100px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 261px;
+    .first{ 
+        width: 245px / 1110px * 100%;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: $font;
+        color: #505F98;
+        margin-top: 18px;
+    }
+    
+    .logo{
+        margin-top: 12px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 38px;
+        font-family: $font;
+        color: #37447E;
+    }
+
+    .but{
+        width: 160px / 1100px * 100%;
+        line-height: 18px;
+        font-family: $font;
+        font-size: 12px;
+        background-color: #111B47;
+        border-radius: 2px;
+        color:white;
+        border:0;
+        margin-top: 18px;
+    }
+}
+
+.text{
+    width: 539px / 1100px * 100%;
+    h1{
+        color: $color;
+        font-size: 50px;
+        line-height: 66px;
+        font-family:$font;
+     }
+
+     .content_header{
+        color:$secondcolor ;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: $font;
+        margin-bottom: 69px;
+     }
+
+     .but_conteiner{
+         display: flex;
+         width: 410px / 539px *100%;
+         justify-content: space-between;
+     }
+
+     .first_but{
+        @extend %butt;
+     }
+
+     .second_but{
+        @extend %butt ;
+        color:$color;
+        background-color: white;
+        border: 3px solid $color;
+     }
+}
+
+
+.main{
+    height: 2650px;
+}
+
+
+.first_element{
+    height: 742px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    h2{
+        margin-top: 160px;
+        @extend %h2
+    }
+    .bg_main-first{
+        margin-top: 110px;
+        position: absolute;
+        right: 11.65%;
+        z-index: -1;
+        height: 600px;
+        width: 500px;
+    }
+    
+    .zxc{
+        @extend %content;
+    }
+
+    h3{
+        @extend %h2;
+        
+    }
+
+    .lol{
+        font-family: $font;
+        width: 40%;
+    }
+}
+
+.pos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 100%;
+}
+
+.second_element{
+    height: 660px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        @extend %img;
+    }
+    .pos2{
+        @extend %position;
+        h2{
+            @extend %h2;
+        }
+
+        .kaif{
+            @extend %content;
+        }
+    }
+}
+
+%position{
+    margin-top: 172px;
+    width: 445px / 1100px *100%;
+    height: 166px;  
+}
+
+%img{
+    margin-top: 160px;
+    width: 480px / 1100px * 100%;
+    height: 315px;
+}
+
+.thrid_element{
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    img{
+    @extend %img;
+    height: 380px;
+    }
+    .pos2{
+        @extend %position;
+        h2{
+            @extend %h2;
+        }
+
+        .kaif{
+            @extend %content;
+        }
+    }
+}
+
+.forth_element{
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 260px;
+    img{
+        @extend %img;
+        height: 380px;
+    }
+    .pos2{
+        @extend %position;
+        
+        h2{
+            @extend %h2;
+        }
+
+        .kaif{
+            @extend %content;
+        }
+
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        @extend %h2;
+        margin-top: 300px;
+    }
+
+    div{
+        @extend %content;
+        text-align: center;
+        width: 500px / 1100px *100%;
+        height: 78px;
+    }
+    .cash{
+        @extend %h2;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    span{
+        font-family: $font;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 60px;
+    }
+
+    .price{
+        font-family: $font;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .last_but{
+        @extend %butt;
+        width: 189px /1100px *100%;
+        height: 24px;
+    }  
+
+    .last_div{
+        width: 100%;
+    }
+    .last{
+        background: #E7ECFF;
+        width: 100%;
+        height: 150px;
+        
+        display: flex;
+        flex-direction: row ;
+        justify-content: space-between;
+        .cool{
+            margin-top: 62px;
+        }
+       
+        .logo1{
+            font-weight: bold;
+            color: $color;
+            font-size: 26px;
+            margin-top: 62px;
+            margin-right: 11%;
+        }
+        button{
+            @extend %butt;
+            height: 30px;
+            margin-top: 62px;
+            width: 14%;
+            font-size: 12px;
+            margin-right: 11%;
+        }
+    
+    }  
+}
+.asd{
+ position: absolute;
+ width: 100%;
+ z-index: -1;
+}
+
+.last2{
+    background: #E7ECFF;
+    width: 100%;
+    height: 250px;
+}
+
+.ims{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 4750px;
+    z-index: -1;
+}
+
+.bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px / 1100px *100%;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size: 14px;
+    color:#929ECC;
+}
+
+.rofl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ims1{
+    width: 170px/1100px *100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 10%;
+}

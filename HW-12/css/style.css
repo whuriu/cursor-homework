@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.text .first_but, .text .second_but, footer .last_but, footer .last button {
+  width: 35.06494%;
+  background-color: #091133;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.first_element h2, .first_element h3, .second_element .pos2 h2, .thrid_element .pos2 h2, .forth_element .pos2 h2, footer h2, footer .cash {
+  font-family: Roboto;
+  color: #091133;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.first_element .zxc, .second_element .pos2 .kaif, .thrid_element .pos2 .kaif, .forth_element .pos2 .kaif, footer div {
+  color: #505F98;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Roboto;
+  margin-bottom: 69px;
+}
+
+.content {
+  margin: 0 11.45833%;
+  margin-bottom: 18px;
+}
+
+.bg_header {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  top: 0px;
+}
+
+.header {
+  height: 1100px;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 261px;
+}
+
+.top .first {
+  width: 22.07207%;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: Roboto;
+  color: #505F98;
+  margin-top: 18px;
+}
+
+.top .logo {
+  margin-top: 12px;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  font-family: Roboto;
+  color: #37447E;
+}
+
+.top .but {
+  width: 14.54545%;
+  line-height: 18px;
+  font-family: Roboto;
+  font-size: 12px;
+  background-color: #111B47;
+  border-radius: 2px;
+  color: white;
+  border: 0;
+  margin-top: 18px;
+}
+
+.text {
+  width: 49%;
+}
+
+.text h1 {
+  color: #091133;
+  font-size: 50px;
+  line-height: 66px;
+  font-family: Roboto;
+}
+
+.text .content_header {
+  color: #505F98;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Roboto;
+  margin-bottom: 69px;
+}
+
+.text .but_conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 76.06679%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text .second_but {
+  color: #091133;
+  background-color: white;
+  border: 3px solid #091133;
+}
+
+.main {
+  height: 2650px;
+}
+
+.first_element {
+  height: 742px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.first_element h2 {
+  margin-top: 160px;
+}
+
+.first_element .bg_main-first {
+  margin-top: 110px;
+  position: absolute;
+  right: 11.65%;
+  z-index: -1;
+  height: 600px;
+  width: 500px;
+}
+
+.first_element .lol {
+  font-family: Roboto;
+  width: 40%;
+}
+
+.pos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100%;
+}
+
+.second_element {
+  height: 660px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second_element .pos2, .thrid_element .pos2, .forth_element .pos2 {
+  margin-top: 172px;
+  width: 40.45455%;
+  height: 166px;
+}
+
+.second_element img, .thrid_element img, .forth_element img {
+  margin-top: 160px;
+  width: 43.63636%;
+  height: 315px;
+}
+
+.thrid_element {
+  height: 440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.thrid_element img {
+  height: 380px;
+}
+
+.forth_element {
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 260px;
+}
+
+.forth_element img {
+  height: 380px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h2 {
+  margin-top: 300px;
+}
+
+footer div {
+  text-align: center;
+  width: 45.45455%;
+  height: 78px;
+}
+
+footer .cash {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+footer span {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 60px;
+}
+
+footer .price {
+  font-family: Roboto;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+footer .last_but {
+  width: 17.18182%;
+  height: 24px;
+}
+
+footer .last_div {
+  width: 100%;
+}
+
+footer .last {
+  background: #E7ECFF;
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .last .cool {
+  margin-top: 62px;
+}
+
+footer .last .logo1 {
+  font-weight: bold;
+  color: #091133;
+  font-size: 26px;
+  margin-top: 62px;
+  margin-right: 11%;
+}
+
+footer .last button {
+  height: 30px;
+  margin-top: 62px;
+  width: 14%;
+  font-size: 12px;
+  margin-right: 11%;
+}
+
+.asd {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.last2 {
+  background: #E7ECFF;
+  width: 100%;
+  height: 250px;
+}
+
+.ims {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 4750px;
+  z-index: -1;
+}
+
+.bot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20.90909%;
+  margin-left: 10%;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #929ECC;
+}
+
+.rofl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.ims1 {
+  width: 15.45455%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+  margin-right: 10%;
+}
+/*# sourceMappingURL=style.css.map */
