@@ -10,7 +10,7 @@ console.log('Мінімальне значення: ' + Math.min(apple, peach, t
 console.log("Сума товарів: " + sum);
 console.log('Сума товарів округелена в меншу сторону: ' + sumLow);
 console.log('Сума товарів округлена до сотень: ' + Math.round(sum/100)*100);
-console.log('Булеве значення суми всіх товарів: '+ (Math.floor(sum) %2 ==0));
+console.log('Булеве значення суми всіх товарів: '+ (Math.floor(sum) %2 ===0));
 console.log('Сума решти при оплаті 500 : ' + (500 - sum));
 console.log('Середнє значення цін: ' + (sum/3).toFixed(2));
 console.log (`Знижка: `+ discount  +`%`);
